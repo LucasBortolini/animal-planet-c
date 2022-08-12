@@ -83,7 +83,7 @@ section.myModal-wrapper {
     background-position: top;
     background-size: contain;
     background-color: #E3E3E2;
-    border-radius: 20px;
+    border-radius: 4px;
     box-shadow: 1px 2px 1px #AAA;
     display: flex;
     align-items: center;
@@ -93,7 +93,7 @@ section.myModal-wrapper {
 
     @media (min-width: 576px) {
       height: 45vh;
-      border-radius: 18px;
+      border-radius: 4px;
       margin-top: 115px;
       height: auto;
       max-height: calc(105vh - 162px);
@@ -137,7 +137,7 @@ section.myModal-wrapper {
         height: 30px;
         font-size: 16px;
         color: #646464;
-        border-radius: 30px;
+        border-radius: 4px;
 
         &::placeholder {
           font-size: 16px;
@@ -153,7 +153,7 @@ section.myModal-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 20px;
+        border-radius: 4px;
         background-color: #6AD1F9;
         box-shadow: 0.38px 5px 0px #E5E5E5;
         color: #FFFFFF;
@@ -171,7 +171,7 @@ section.myModal-wrapper {
       display: flex;
       justify-content: center;
       align-items: center;
-      border-radius: 8px;
+      border-radius: 4px;
       background-color: #F07F0F;
       color: #FFFFFF;
       font-weight: bold;
@@ -237,28 +237,28 @@ section.myModal-wrapper {
     z-index: -1; 
     background-color: #40C351;
     margin-left: -14px;
-    border-radius: 10px;
+    border-radius: 4px;
   }
 
   .modal-icon-telegram {
     z-index: -1; 
     background-color: #1E94D3;
     margin-left: -14px;
-    border-radius: 10px;
+    border-radius: 4px;
   }
 
   .modal-icon-email {
     z-index: -1; 
     background-color: #E4D12F;
     margin-left: -18px;
-    border-radius: 10px;
+    border-radius: 4px;
   }
 
   .modal-icon-notification {
     z-index: -1; 
     background-color: #D50808;
     margin-left: -14px;
-    border-radius: 10px;
+    border-radius: 4px;
     width: 10%;
   }
 
