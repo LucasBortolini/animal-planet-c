@@ -1,0 +1,200 @@
+// base scss
+body, * {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-primary {
+  color: green !important;
+}
+
+.text-blue {
+  color: #1868C9 !important;
+}
+
+.w-95 { 
+  max-width: 95%;
+}
+
+img.success-image {
+  transform: translate(3%) !important;
+  width: 140px !important;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: underline;
+  outline: 0;
+
+  &.link-white {
+    color: #FFF;
+    text-decoration-color: #FFF;
+  }
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+.input-group {
+  input.form-control,
+  select.form-control,
+  textarea.form-control {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: none;
+    padding: 2px 10px;
+    border-radius: 10px !important;
+    line-height: 1;
+    height: 30px;
+
+    &[type="time"] {
+      padding: 0 0 0 14px;
+    }
+
+    &::placeholder {
+     color: #2F2E2A;
+     opacity: 0.6;
+   }
+
+   &.btn {
+    background-color: #F07F0F;
+    height: 30px;
+    padding: 2px 8px;
+    border-radius: 6px !important;
+    color: #FFFFFF;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
+
+textarea.form-control {
+  padding: 14px 10px 2px;
+  height: auto !important;
+}
+}
+
+.input-group-forum {
+  input.form-control-forum,
+  select.form-control-forum,
+  textarea.form-control-forum {
+    -webkit-box-shadow: inset 0px 0px 16px -10px rgba(0,0,0,0.52); 
+    box-shadow: inset 0px 0px 16px -10px rgba(0,0,0,0.52);
+    border: none;
+    padding: 2px 10px;
+    border-radius: 10px !important;
+    line-height: 1;
+    height: 30px;
+    background-color: #f6f6f6;
+
+    &[type="time"] {
+      padding: 0 0 0 14px;
+    }
+
+    &::placeholder {
+     color: #2F2E2A;
+     opacity: 0.6;
+   }
+
+   &.btn {
+    background-color: #F07F0F;
+    height: 30px;
+    padding: 2px 8px;
+    border-radius: 6px !important;
+    color: #FFFFFF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+textarea.form-control-forum {
+  padding: 14px 10px 2px;
+  height: auto !important;
+}
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.btn-final {
+  box-shadow: inset 0.57px 3px 0px #0068FF45;
+  border: none;
+  padding: 2px 10px;
+  border-radius: 6px;
+  line-height: 1;
+  height: 30px;
+}
+
+.section-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hover-icon {
+  &:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  } 
+}
+
+.cards {
+  background: #ccc;
+  padding-top: 8px;
+  padding-bottom: 16px;
+
+  @media (min-width: 959px) {
+    padding-top: 40px;
+    padding-bottom: 36px;    
+  }
+}
+
+.btn-forum-index {
+  background: #FFCF00;
+  cursor: pointer;
+  padding: 6px 80px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  -webkit-box-shadow: 0px 15px 34px -9px #000000; 
+  box-shadow: 0px 15px 34px -9px #000000;
+
+  &:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  } 
+}
+
+.checkbox-round {
+  width: 1em;
+  height: 1em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: gray;
+}

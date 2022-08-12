@@ -1,0 +1,69 @@
+---
+layout: base
+---
+
+<!-- header -->
+{%- include header.html -%} <!-- end header -->
+<!-- post share -->
+{%- include share.html -%} <!-- end post share -->
+<!-- post layout -->
+<div class="post-layout">
+  <div class="d-flex flex-column align-items-center bg-banner bg-no-repeat">
+    <div class="d-flex justify-content-center mx-auto pt-4">
+      <!-- banner post -->
+      <div class="d-flex mx-5 mx-md-0">
+        <a href="#">
+          <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe mw-100">
+        </a>
+      </div> <!-- end banner post -->
+    </div>
+    <!-- container blog -->
+    <div class="container-blog px-2 px-md-5 py-3">
+      <div class="d-flex flex-wrap justify-content-center justify-content-md-between flex-md-nowrap bg-white px-4 py-3">
+        <article class="mw-100">
+          <!-- breadcrumb -->
+          <nav class="mb-3">
+            <a href="{{site.url}}" class="text-dark">Mundo Animal</a>
+            <span class="mx-1">/</span> 
+            <span>data</span>
+            <span class="mx-1">/</span>
+            <span id="breadcrumb">Título</span>
+          </nav> <!-- end breadcrumb -->
+          <!-- title -->
+          <div class="mb-3">
+            <h1 id="recipe-title" class="text-uppercase">
+              Título exemplo caixa alta
+            </h1> <!-- end title -->
+            <!-- border title -->
+            <hr class="w-50 mt-2 mb-4"> <!-- end border title -->
+          </div>
+          <!-- content -->
+          {{ content }} <!-- end content -->
+          <!-- blog post -->
+          {%- include blog-post.html -%} <!-- end blog post -->
+          <!-- header post -->
+          {%- include header-post.html -%} <!-- end header post -->
+        </article>
+        <div class="float-right w-100">
+          <!-- ads post -->
+          {%- include ads-post.html -%} <!-- end ads post -->
+          <!-- did you know post -->
+          {%- include did-you-know-post.html -%} <!-- end did you know post -->
+        </div>
+      </div>
+    </div> <!-- end container blog -->
+  </div>
+</div> <!-- end post layout -->
+<!-- post blog -->
+{%- include blog.html -%} <!-- end post blog -->
+<!-- post indicate -->
+{%- include indicate.html -%} <!-- end post indicate -->
+<!-- post faq -->
+{%- include faq.html -%} <!-- end post faq -->
+<!-- post project "você sabia" -->
+{%- include you-know.html -%} <!-- end post project "você sabia" -->
+<!-- post footer -->
+{%- include footer.html -%} <!-- end post footer -->
+<!-- post modal -->
+{%- include modal.md -%} <!-- end post modal -->
+
