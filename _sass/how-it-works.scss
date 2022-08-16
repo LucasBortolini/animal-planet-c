@@ -27,17 +27,31 @@
 
   span {
     color: #6225B5;
-    background-color: #F0F0F0;
     font-weight: 600;
-    border-radius: 50%;
   }
 
-  .step-1 {
+  .steps {
+    max-width: 60%;
     background-color: #F7F7F7;
     border-radius: 4px;
 
+    @media (min-width: 579px) {
+      max-width: 100%;
+    }
+
     p {
       font-size: 14px;
+    }
+
+    span {
+      color: #6225B5;
+      background-color: #F0F0F0;
+      font-weight: 600;
+      border-radius: 50%;
+    }
+
+    #fig1 {
+      background-image: url('images/step-4.jpg');
     }
 
     .subtext-steps {
