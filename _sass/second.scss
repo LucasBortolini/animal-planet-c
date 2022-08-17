@@ -2,11 +2,13 @@
 section.second {
   background-image: url('images/banner-index2.jpg');
   width: 100%;
+  border-radius: 4px;
 
   @media (min-width: 1079px) {
     background-size: contain;
     background-repeat: no-repeat;
-    width: 315px;
+    max-height: 174px;
+    max-width: 310px;
   }
 
   p {
@@ -59,7 +61,8 @@ section.second {
 
     @media (min-width: 1079px) {
       font-size: 13px;
-      padding-top: 87px;
+      padding-top: 80px;
+      padding-left: 90px;
     }
   }
 }

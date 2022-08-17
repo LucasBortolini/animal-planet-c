@@ -2,11 +2,13 @@
 section.third {
   background-image: url("images/banner-index3.jpg");
   background-size: cover;
+  border-radius: 4px;
 
   @media (min-width: 1079px) {
     background-size: contain;
     background-repeat: no-repeat;
-    width: 315px;
+    max-height: 174px;
+    max-width: 310px;
   }
 
   p {
