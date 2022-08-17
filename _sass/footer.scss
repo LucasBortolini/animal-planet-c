@@ -11,6 +11,10 @@
     text-decoration: none;
   }
 
+  span {
+    font-size: 18px;
+  }
+
   .hover-icon {
     width: 46px;
 
@@ -219,7 +223,14 @@
 @media (min-width: 768px) {
   .footer-1,
   .footer-2 p{
-    font-size: 1rem;
+    font-size: 12px;
+  } 
+}
+
+@media (min-width: 768px) {
+  .footer-1,
+  .footer-2 a{
+    font-size: 12px;
   } 
 }
 

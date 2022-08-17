@@ -2,9 +2,8 @@
 .blog {
   h3 {
     color: #6225B5;
-    text-transform: uppercase;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 16px;
     margin: 0;
 
     &::after {
@@ -54,7 +53,6 @@
 
   span {
     color: black;
-    font-weight: 600;
   }
 
   .line-blog {

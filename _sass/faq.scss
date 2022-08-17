@@ -4,9 +4,8 @@
 
   h3 {
     color: #6225B5;
-    text-transform: uppercase;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 16px;
     margin: 0;
 
     &::after {
@@ -19,9 +18,23 @@
     }
   }
 
+  a {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
   .card {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+
+    &:first-child {
+      border-top: 1px solid rgba(0,0,0,.125);
+    }
+
     .card-body {
       opacity: 0.6;
+      font-size: 14px;
     }
   }
 
@@ -45,9 +58,4 @@
       }
     }
   }
-}
-
-#border {
-  border-bottom: 4px solid rgba(87,197,254,0.97);
-  width: 25%;
 }
