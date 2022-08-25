@@ -1,0 +1,20 @@
+.join-the-community {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/join-the-community.png");
+  padding: 100px;
+  position: relative;
+
+  a {
+    font-size: 16px;
+    text-decoration: underline;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    text-align: center;
+  }
+}
