@@ -4,7 +4,7 @@ section.second {
   width: 100%;
   border-radius: 4px;
 
-  @media (min-width: 1079px) {
+  @media (min-width: 959px) {
     background-size: contain;
     background-repeat: no-repeat;
     max-height: 174px;
@@ -54,15 +54,15 @@ section.second {
 
     @media (min-width: 959px) {
       font-size: 13px;
-      padding-top: 84px;
+      padding-top: 70px;
       padding-right: 0;
-      padding-left: 101px;
+      padding-left: 79px;
     }
 
     @media (min-width: 1079px) {
       font-size: 13px;
-      padding-top: 80px;
-      padding-left: 90px;
+      padding-top: 70px;
+      padding-left: 79px;
     }
   }
 }
