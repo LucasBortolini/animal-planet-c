@@ -1,0 +1,24 @@
+// be moderator
+.be-moderator {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media (min-width: 959px) {
+    background-image: url("images/bg-be-moderator.png");
+  }
+
+  img {
+    width: 250px;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  a {
+    font-size: 16px;
+    text-decoration: underline;
+  }
+}
