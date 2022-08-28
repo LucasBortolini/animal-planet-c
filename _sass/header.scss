@@ -2,7 +2,8 @@
 .header {
   padding: 0;
   background-color: #0C3900;
-  border-bottom: 4px solid #6225B5;
+  -webkit-box-shadow: 0px -5px 25px 16px #000000; 
+  box-shadow: 0px -2px 11px 6px #000000;
 
   label {
     color: #f7f7f7;
@@ -211,10 +212,5 @@
     @media (min-width: 576px) {
       top: 60px;
     }
-  }
-
-  .navbar {
-    -webkit-box-shadow: 0px -5px 25px 16px #000000; 
-    box-shadow: 0px -2px 11px 6px #000000;
   }
 }
