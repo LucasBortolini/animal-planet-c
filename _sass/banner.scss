@@ -48,7 +48,7 @@ section.banner-index {
   }
 
   img {
-    width: 30px;
+    width: 250px;
   }
 
   a {
@@ -79,13 +79,9 @@ section.banner-index {
   }
 
   #btn-banner {
-    background: #09C083;
     position: absolute;
     cursor: pointer;
     z-index: 999999;
-    padding: 1px 14px;
-    border-radius: 4px;
-    border: 2px solid #fff;
     top: 72px;
     right: 67px;
 
@@ -106,8 +102,7 @@ section.banner-index {
 
     @media (min-width: 959px) {
       right: 50px;
-      top: 248px;
-      padding: 6px 28px;
+      top: 233px;
     }
 
     &:hover {
