@@ -353,3 +353,7 @@ section.myModal-wrapper {
     color: gray;
   }
 }
+
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+  opacity: 0.92;
+}
