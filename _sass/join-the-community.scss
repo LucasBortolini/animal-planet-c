@@ -10,16 +10,19 @@
   a {
     font-size: 16px;
     text-decoration: underline;
+
+    &:hover {
+      color: #F2902C;
+    }
+  }
+
+  .btn-community {
+    text-align: center;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     bottom: 25px;
-    text-align: center;
-
-    &:hover {
-      color: #F2902C;
-    }
   }
 }
