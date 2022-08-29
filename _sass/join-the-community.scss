@@ -17,5 +17,9 @@
     right: 0;
     bottom: 25px;
     text-align: center;
+
+    &:hover {
+      color: #F2902C;
+    }
   }
 }
