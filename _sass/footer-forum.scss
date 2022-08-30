@@ -41,6 +41,12 @@
       margin-top: 6px;
       margin-left: 5px;
     }
+
+    p {
+      @media (min-width: 414px) {
+        margin-left: 12px  
+      }
+    }
   }
 
   p {

@@ -12,7 +12,11 @@
   }
 
   span {
-    font-size: 18px;
+    font-size: 12px;
+
+    @media (min-width: 576px) {
+      font-size: 18px;      
+    }
   }
 
   .hover-icon {
@@ -159,12 +163,22 @@
 
 .footer-2 {
   background-color: #0C3900;
-  margin-bottom: 83px;
+  margin-bottom: 136px;
+
+  @media (min-width: 576px) {
+    margin-bottom: 83px;    
+  }
 
   p {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     color: white;
+    text-align: left;
+
+    @media (min-width: 576px) {
+      font-size: 14px;
+      text-align: center;
+    }
   }
 
   img {
