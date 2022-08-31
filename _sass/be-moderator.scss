@@ -3,24 +3,45 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-image: url("images/bg-mobile-be-moderator.jpg");
 
   @media (min-width: 959px) {
     background-image: url("images/bg-be-moderator.png");
   }
 
   img {
+    display: none;
     width: 250px;
+
+    @media (min-width: 959px) {
+      display: block;
+    }
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 18px;
+    text-align: end;
     font-weight: 600;
+
+    @media (min-width: 959px) {
+      font-size: 22px;
+    }
+  }
+
+  br {
+    @media (min-width: 959px) {
+      display: none;
+    }
   }
 
   a {
     text-decoration: underline;
-    margin-right: 68px;
+    margin-right: 34px;
     color: #F2902C;
+
+    @media (min-width: 959px) {
+      margin-right: 68px;
+    }
   }
 
   span {
