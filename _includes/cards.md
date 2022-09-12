@@ -1,5 +1,5 @@
 <!-- text cards and modals -->
-<div class="cards mx-auto my-md-4 py-md-3">
+<div class="cards mx-auto my-md-3 py-md-3">
   <div class="d-flex justify-content-center section-wrapper row no-gutters my-0">
     <!-- first card -->
     <div class="d-block d-md-flex card-1 mb-1 mb-md-0 mr-md-2">
