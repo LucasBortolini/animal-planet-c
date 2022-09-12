@@ -45,15 +45,6 @@ section.third {
     } 
   }
 
-  .hover-icon-phone {
-    &:hover {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
-      cursor: pointer;
-    } 
-  }
-
   .icon-index {
     height: 28px;
     width: 30px;
@@ -64,27 +55,32 @@ section.third {
   }
 
   .phone-icon {
-    height: 224px;
-    margin-top: -12px;
+    height: 210px;
+    margin-top: -3px;
     margin-right: 6px;
     margin-left: 10px;
     position: absolute;
     right: 0;
 
     @media (min-width: 413px) {
-      height: 236px;
+      height: 224px;
     }
 
     @media (min-width: 427px) {
-      height: 248px;
+      height: 232px;
+      margin-top: -4px;
     }
 
     @media (min-width: 959px) {
-      height: 218px;
+      height: 200px;
+      margin-top: -10px;
+      -webkit-box-shadow: 0px 0px 21px -6px #000000; 
+      box-shadow: 0px 0px 21px -6px #000000;
     }
 
-    @media (min-width: 1079px) {
-      height: 208px;
+    &:hover {
+      -webkit-box-shadow: none;
+      cursor: pointer;
     }
   }
 
@@ -120,7 +116,7 @@ section.third {
 
     @media (min-width: 959px) {
       padding-right: 118px;
-      padding-left: 14px;
+      padding-left: 19px;
       padding-top: 78px;
       padding-bottom: 3px;
       margin-right: 0; 
