@@ -43,6 +43,27 @@
     cursor: pointer;
   }
 
+  .hover-others {
+    text-decoration: none;
+
+    &:hover {
+      background-color: #0C3900;
+      border-radius: 4px;
+
+      & > div h3 {
+        color: #FFF;
+      }
+
+      & > div p {
+        color: #FFF;
+      }
+
+      & > div span {
+        color: #FFF;
+      }
+    }
+  }
+
   .btn-others {
     background: #F2902C;
     cursor: pointer;
