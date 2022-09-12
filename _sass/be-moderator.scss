@@ -2,7 +2,7 @@
 .be-moderator {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-image: url("images/bg-mobile-be-moderator.jpg");
 
   @media (min-width: 959px) {
@@ -11,7 +11,7 @@
 
   img {
     display: none;
-    width: 250px;
+    width: 245px;
 
     @media (min-width: 959px) {
       display: block;
