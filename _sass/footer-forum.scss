@@ -19,6 +19,8 @@
   }
 
   .input-footer {
+    max-width: 378px;
+
     input {
       width: 110px;
 
@@ -38,12 +40,6 @@
     input {
       margin-top: 6px;
       margin-left: 5px;
-    }
-
-    p {
-      @media (min-width: 414px) {
-        margin-left: 12px  
-      }
     }
   }
 
