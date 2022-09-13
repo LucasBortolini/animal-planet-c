@@ -23,9 +23,9 @@
     width: 46px;
 
     &:hover {
-      -webkit-transform: scale(1.3);
-      -ms-transform: scale(1.3);
-      transform: scale(1.3);
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
     } 
   }
 
@@ -129,7 +129,7 @@
         &::before {
           content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
           color: inherit;
-          margin-right: 28px;
+          margin-right: 18px;
           font-weight: normal; /* If you want it to be bold */
           display: inline-block; /* Needed to add space between the bullet and the text */ 
           width: 1em; /* Also needed for space (tweak if needed) */
@@ -227,12 +227,6 @@
 
   h6 {
     font-size: 12px;
-  }
-}
-
-.footer-pages {
-  @media (min-width: 576px) {
-    margin-right: 36px;
   }
 }
 
