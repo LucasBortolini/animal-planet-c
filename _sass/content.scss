@@ -15,8 +15,16 @@
   }
 
   img {
-    width: 38px;
-    height: 38px;
+    width: 24px;
+    height: 24px;
+  }
+
+  a {
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
   }
 
   textarea {
@@ -24,7 +32,11 @@
     resize: none;
   }
 
+  h2 {
+    font-size: 10px;
+  }
+
   .gap-tags {
-    gap: 12px;
+    gap: 6px;
   }
 }

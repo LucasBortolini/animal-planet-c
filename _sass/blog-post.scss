@@ -2,21 +2,35 @@
 .blog-post {
   h2 {
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 100;
+
+    &::after {
+      content: '';
+      width: 100px;
+      height: 2px;
+      background: black;
+      display: block;
+      margin: 7px 0;
+    }
   }
 
-  div a div h3 {
+  h3 {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: lighter;
 
   }
 
-  div a div p {
-    font-size: 14px;
+  p {
+    font-size: 13px;
     font-weight: lighter;
 
+  }
+
+  .date-time-post {
+    font-size: 12px;
+    font-weight: 100;
   }
 
   a {

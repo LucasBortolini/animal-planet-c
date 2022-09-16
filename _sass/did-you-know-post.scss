@@ -4,24 +4,35 @@
 
   h5 {
     font-size: 20px;
+    font-weight: 100;
+      
+    &::after {
+      content: '';
+      width: 60px;
+      height: 2px;
+      background: black;
+      display: block;
+      margin: 7px 0;
+    }
   }
 
-  div h5 {
+  a span {
     font-weight: 100;
-  }
-
-  div a span {
-    font-weight: 100;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1;
   }
 
   img {
-    width: 50px;
+    width: 45px;
   }
 
   hr {
-    color: #000;
+    border-top: 1px solid #000 !important;
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   .hover-post {
@@ -31,15 +42,51 @@
     @media (min-width: 579px) {
       &:hover {
         background-color: #0C3900;
+        border-radius: 4px;
 
-        & > a span {
+        .title-float-post {
           color: #FFF;
         }
 
-        & > a span {
+        .date-time-float-post {
+          color: #FFF;
+        }
+
+        .text-float-post {
           color: #FFF;
         }
       }
+    }
+  }
+
+  .date-time-float-post {
+    font-size: 10px;
+    color: gray;
+    font-weight: 100;
+  }
+
+  .title-float-post {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .text-float-post {
+    line-height: 1.2;
+    font-size: 12px;
+  }
+
+  .btn-float-post {
+    background: #F2902C;
+    cursor: pointer;
+    padding: 12px 10px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 5px -2px #000000; 
+    box-shadow: 0px 0px 5px -2px #000000;
+    transition: box-shadow 0.1s ease-in-out;
+    min-width: 190px;
+
+    &:hover {
+      -webkit-box-shadow: none; 
     }
   }
 }
