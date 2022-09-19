@@ -23,6 +23,11 @@
 
   .container-blog {
     width: 85%;
+    max-width: 1088px;
+  }
+
+  .border-blog {
+    border-radius: 4px;
   }
 
   .float-post {
@@ -31,7 +36,7 @@
 
     @media (min-width: 1080px) {
       min-width: 25%;
-      max-width: 300px;      
+      max-width: 250px;      
     }
   }
 }

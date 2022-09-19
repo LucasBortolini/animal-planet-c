@@ -64,6 +64,14 @@
     }
   }
 
+  .flex-others {
+    width: 50%;
+
+    @media (min-width: 959px) {
+      width: 25%;
+    }
+  }
+
   .btn-others {
     background: #F2902C;
     cursor: pointer;

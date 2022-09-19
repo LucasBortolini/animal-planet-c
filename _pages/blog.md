@@ -33,16 +33,7 @@ permalink: /post
         <img src="{{ 'assets/images/linkedin.png'  | relative_url }}" class="icons-post">
       </a>
       <a href="{{ '#' | relative_url }}">
-        <img src="{{ 'assets/images/pinterest.png'  | relative_url }}" class="icons-post">
-      </a>
-      <a href="{{ '#' | relative_url }}">
-        <img src="{{ 'assets/images/tiktok.png'  | relative_url }}" class="icons-post">
-      </a>
-      <a href="{{ '#' | relative_url }}">
         <img src="{{ 'assets/images/twitter.png'  | relative_url }}" class="icons-post">
-      </a>
-      <a href="{{ '#' | relative_url }}">
-        <img src="{{ 'assets/images/youtube.png'  | relative_url }}" class="icons-post">
       </a>
     </div>
   </div> <!-- end tags post -->

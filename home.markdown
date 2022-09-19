@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Receitas do Dia
+title: vcsabia mundo animal
 permalink: /home
 sections:
   - banner.html

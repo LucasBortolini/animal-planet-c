@@ -132,19 +132,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
   
   // FOOTER
-  const whoWeAre = document.querySelector("#who-we-are");
+  const whoWeAre = document.querySelectorAll(".who-we-are");
 
   if (whoWeAre) {
-    whoWeAre.addEventListener("click", function() {
-      showModal("#modal-who-we-are"); 
+    whoWeAre.forEach(whoWeAre => {
+      whoWeAre.addEventListener("click", function() {
+        showModal("#modal-who-we-are");
+      });
     });
   }
 
-  const contactUsFooter = document.querySelector("#contact-us-footer");
+  const contactUsFooter = document.querySelectorAll(".contact-us-footer");
 
   if (contactUsFooter) {
-    contactUsFooter.addEventListener("click", function() {
-      showModal("#modal-contact-us"); 
+    contactUsFooter.forEach(contactUsFooter => {
+      contactUsFooter.addEventListener("click", function() {
+        showModal("#modal-contact-us");
+      });
     });
   }
 
