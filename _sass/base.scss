@@ -1,4 +1,12 @@
 // base scss
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden; 
+}
+
 body, * {
   font-family: 'Poppins', sans-serif !important;
   font-size: 14px;
