@@ -1,7 +1,7 @@
-<section class="fixed-bottom d-flex justify-content-center footer-forum footer-3 text-center px-1 py-md-0">
+<section class="fixed-bottom d-flex justify-content-center footer-forum footer-3 text-center px-md-1 py-md-0">
   <div class="d-flex flex-column flex-md-row justify-content-between section-wrapper">
-    <div class="d-flex align-items-center">
-      <h6 class="text-white my-0">
+    <div class="">
+      <h6 class="mb-1 mx-5 mx-md-2">
         Cadastre-se para receber nossa newsletter
         com a seleção dos melhores posts
       </h6>
@@ -11,29 +11,29 @@
       <div class="d-flex flex-column flex-md-row">
         <div class="d-flex justify-content-center justify-content-md-start input-footer">
           <!-- input name footer -->
-          <div class="d-flex align-items-center form-group px-0 pr-1 pr-md-2 mb-0">
-            <input type="name" name="name" placeholder="Nome" class=" form-control">
+          <div class="d-flex align-items-center form-group px-0 pr-2 pr-md-2 mb-0">
+            <input type="name" name="name" placeholder="Nome" class=" form-control text-field-footer">
           </div> <!-- end input name footer -->
           <!-- input email footer -->
           <div class="d-flex align-items-center form-group px-0 pr-1 pr-md-2 mb-0">
-            <input type="email" name="E-mail" placeholder="E-mail" class=" form-control">
+            <input type="email" name="E-mail" placeholder="E-mail" class=" form-control text-field-footer">
           </div> <!-- input email footer -->
-          <!-- btn register footer -->
-          <div class="d-flex align-items-center form-group btn-footer col-2 px-0 pl-1 pl-md-2 mb-0">
-            <input type="submit" name="Register" value="Cadastrar" class=" form-control">
-          </div> <!-- end btn register footer -->
-        </div>
-        <div class="checkbox-footer mb-1 d-flex justify-content-md-center align-items-md-center">
-          <input required type="checkbox" class="checkbox-round">
-          <div class="d-flex flex-column">
-            <p class="py-0">
-              li e aceito os
-            </p>
-            <br>
-            <a href="{{ 'https://www.ufms.br/wp-content/uploads/2017/09/PDF-teste.pdf' | relative_url }}" target="_blank" class="ml-1">
-              Termos de Uso
-            </a>
+          <div class="checkbox-footer mb-md-1 d-flex justify-content-md-center align-items-md-center">
+            <input required type="checkbox" class="checkbox-round">
+            <div class="d-flex flex-column privacy-policy-footer mt-2">
+              <p class="py-0">
+                li e aceito a
+              </p>
+              <br>
+              <a href="{{ 'https://www.ufms.br/wp-content/uploads/2017/09/PDF-teste.pdf' | relative_url }}" target="_blank" class="ml-1">
+                Política de Privacidade
+              </a>
+            </div>
           </div>
+          <!-- btn register footer -->
+          <div class="d-flex align-items-center form-group btn-footer px-0 pl-1 pl-md-2 mb-0">
+            <input type="submit" name="Register" value="OK" class=" form-control btn-footer">
+          </div> <!-- end btn register footer -->
         </div>
       </div>
     </form> <!-- end form footer forum -->
